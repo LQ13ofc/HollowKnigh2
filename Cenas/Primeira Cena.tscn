@@ -1,7 +1,52 @@
-[gd_scene load_steps=2 format=3 uid="uid://xp60cwtxdhe8"]
+[gd_scene load_steps=3 format=3 uid="uid://xp60cwtxdhe8"]
 
 [ext_resource type="PackedScene" uid="uid://c48bcywlykj0l" path="res://Ser_Vivos/Jogador.tscn" id="1_vhiy2"]
+[ext_resource type="PackedScene" uid="uid://caajydquggnww" path="res://Objetos/ChãoTeste.tscn" id="2_gvmmb"]
 
 [node name="PrimeiraCena" type="Node2D"]
+position = Vector2(-45, -7)
+metadata/_edit_horizontal_guides_ = [-393.0]
+
+[node name="chão" parent="." instance=ExtResource("2_gvmmb")]
+position = Vector2(729, 335)
 
 [node name="Jogador" parent="." instance=ExtResource("1_vhiy2")]
+position = Vector2(211, 164)
+
+[node name="chão2" parent="." instance=ExtResource("2_gvmmb")]
+position = Vector2(54, -389)
+rotation = -1.5712978
+
+[node name="chão3" parent="." instance=ExtResource("2_gvmmb")]
+position = Vector2(1511.732, 417.90924)
+rotation = 1.5707964
+
+[node name="chão4" parent="." instance=ExtResource("2_gvmmb")]
+position = Vector2(2173, -259)
+rotation = 3.1415927
+
+[node name="chão5" parent="." instance=ExtResource("2_gvmmb")]
+position = Vector2(3776, -748)
+scale = Vector2(0.3880101, 0.33426875)
+
+[node name="chão6" parent="." instance=ExtResource("2_gvmmb")]
+position = Vector2(5012, -1156)
+rotation = -3.1415925
+scale = Vector2(0.16544247, -3.8214333)
+
+[node name="chão7" parent="." instance=ExtResource("2_gvmmb")]
+position = Vector2(3154.0198, -584.54266)
+rotation = -3.1415925
+scale = Vector2(0.36447927, -0.18966268)
+
+[node name="chão8" parent="." instance=ExtResource("2_gvmmb")]
+position = Vector2(3460, -1589.9999)
+scale = Vector2(-1.1678153, -1.488341)
+
+[node name="chão9" parent="." instance=ExtResource("2_gvmmb")]
+position = Vector2(2106, -2555.0002)
+rotation = 1.5707964
+
+[node name="chão10" parent="." instance=ExtResource("2_gvmmb")]
+position = Vector2(3939.0002, -3376)
+scale = Vector2(1.3637927, 2.215159)
