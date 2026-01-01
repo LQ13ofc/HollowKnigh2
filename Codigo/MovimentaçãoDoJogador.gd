@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 # ==============================================================================
 # ⚔️ HOLLOW KNIGHT FINAL - WALL JUMP FORTE & ANIMAÇÕES DE OLHAR
+# ==============================================================================
 
 enum State { IDLE, RUN, AIR, WALL_JUMPING, DASH }
 var current_state: State = State.AIR
