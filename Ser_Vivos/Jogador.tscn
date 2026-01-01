@@ -257,19 +257,6 @@ scale = Vector2(2, 2)
 scale = Vector2(2, 2)
 safe_margin = 0.125
 script = ExtResource("1_ydf2l")
-move_speed = null
-gravity_strength = null
-terminal_velocity = null
-jump_power = null
-jump_cut_multiplier = null
-double_jump_multiplier = null
-wall_jump_force = null
-wall_jump_lock_time = null
-dash_velocity = null
-dash_duration = null
-dash_cooldown = null
-coyote_time = null
-jump_buffer = null
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 scale = Vector2(2, 2)

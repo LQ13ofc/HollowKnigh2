@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://xp60cwtxdhe8"]
+[gd_scene load_steps=4 format=3 uid="uid://xp60cwtxdhe8"]
 
 [ext_resource type="PackedScene" uid="uid://c48bcywlykj0l" path="res://Ser_Vivos/Jogador.tscn" id="1_vhiy2"]
 [ext_resource type="PackedScene" uid="uid://caajydquggnww" path="res://Objetos/ChãoTeste.tscn" id="2_gvmmb"]
+
+[sub_resource type="TileSet" id="TileSet_gvmmb"]
 
 [node name="PrimeiraCena" type="Node2D"]
 position = Vector2(-45, -7)
@@ -50,3 +52,6 @@ rotation = 1.5707964
 [node name="chão10" parent="." instance=ExtResource("2_gvmmb")]
 position = Vector2(3939.0002, -3376)
 scale = Vector2(1.3637927, 2.215159)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_set = SubResource("TileSet_gvmmb")
