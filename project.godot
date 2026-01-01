@@ -60,6 +60,10 @@ attack={
 2d_render/layer_2="Mundo"
 2d_render/layer_3="Objetos"
 2d_render/layer_4="Monstros"
+2d_physics/layer_1="Jogador"
+2d_physics/layer_2="Mundo"
+2d_physics/layer_3="Objetos"
+2d_physics/layer_4="Monstros"
 
 [rendering]
 
